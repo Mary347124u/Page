@@ -44,3 +44,21 @@ nav ul li a{
     color: #fff;
     font-size: 15px;
 }
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 100%;
+    font-size: 70px;
+}
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
