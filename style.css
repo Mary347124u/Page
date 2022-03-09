@@ -83,4 +83,31 @@ button{
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
+    background-image: url(assets/rosa.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5;
+}
+.card1{
+    background-image: url(assets/rosa.jpg);
+}
+.card2{
+    background-image: url(assets/rosa2.webp);
+}
+.card3{
+    background-image: url(assets/rosa3.webp);
+}
+.card4{
+    background-image: url(assets/rosa4.jpg.crdownload);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 10px;
 }
